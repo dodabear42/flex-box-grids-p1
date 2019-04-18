@@ -152,7 +152,11 @@ header, footer, main {
 
 footer li {
     display: flex;
-    
+    flex-flow: row nowrap;
+}
+
+footer img {
+    width: 40px;
 }
 
 /* ==========================================================================
