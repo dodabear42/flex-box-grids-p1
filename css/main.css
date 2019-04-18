@@ -141,7 +141,7 @@ header, footer, main {
   justify-content: center;
   line-height: 1.5em;
   font-size: 1em;
-  height: 300px;
+  height: 200px;
   width: 30%;
     padding-right: 20px;
 }
@@ -150,9 +150,13 @@ header, footer, main {
     border-right: 2px solid #7acdf1;
 }
 
-footer li {
+
+
+footer ul li {
     display: flex;
-    flex-flow: row nowrap;
+    text-decoration: none;
+    padding: 0 10px;
+    
 }
 
 footer img {
